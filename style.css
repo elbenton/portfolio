@@ -16,13 +16,36 @@ body {
     margin-right: auto;
 }
 
-.separator {
+.separator1 {
     background-color: #696969;
 
 }
 
+.separator2 {
+    background-color: #696969;
+
+}
+
+.separator3 {
+    background-color: #696969;
+
+}
+
+.separator4 {
+    background-color: #696969;
+
+}
+
+.portfolio {
+  background-color: #9d9d9d;
+}
+
 .bio {
     background-color: #9d9d9d;
+}
+
+.contact {
+  background-color: #9d9d9d;
 }
 
 footer {
