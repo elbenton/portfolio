@@ -104,6 +104,8 @@ header>p{
 #bio>p {
   font-size: 16px;
   line-height: 21px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .separator2 {
@@ -134,7 +136,8 @@ header>p{
 #portfolio .seinfeld_ss {
   border-width: 0px;
   border-radius: 0%;
-  height: 350px;
+  height: auto;
+  max-width: 80%;
 }
 
 #portfolio ul {
@@ -159,6 +162,8 @@ header>p{
 #portfolio>p {
   font-size: 16px;
   line-height: 21px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .separator3 {
@@ -189,6 +194,8 @@ header>p{
 #contact>p {
   font-size: 16px;
   line-height: 21px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 
@@ -201,7 +208,7 @@ header>p{
 
 }
 footer>p {
-  font-size: 10px;
+  font-size: 15px;
   text-align: center;
   color: white;
   
@@ -338,10 +345,11 @@ h1 {
   margin-left: 15px;
 }
 
-.seinfeld_ss {
+#portfolio .seinfeld_ss {
   border-width: 0px;
   border-radius: 0%;
-  height: 500px;
+  height: auto;
+  max-width: 80%;
 }
 
 .portfolio ul {
@@ -547,10 +555,11 @@ h1 {
   margin-left: 15px;
 }
 
-.seinfeld_ss {
+#portfolio .seinfeld_ss {
   border-width: 0px;
   border-radius: 0%;
-  height: 500px;
+  height: auto;
+  max-width: 80%;
 }
 
 #portfolio ul {
@@ -618,9 +627,8 @@ h1 {
 
 }
 footer {
-  font-size: 16px;
+  font-size: 18px;
   text-align: center;
-  width: 75%;
   color: white;
   
 }
