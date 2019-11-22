@@ -5,7 +5,7 @@ body {
 }
 
 a {
-  color: #235734;
+  color: #132F1E;
 }
 
 a:hover {
@@ -16,8 +16,7 @@ a:active {
   color:#628078;
 }
 
-header {
-  margin-top: 150px;
+.head {
   margin-bottom: 300px;
 }
 
@@ -28,26 +27,26 @@ h1 {
 
 
 .photo {
-  font-size: 15px;
+  font-size: 20px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   color: white;
-  margin-top: -20px;
+  margin-top: 150px;
   margin-bottom: -10px;
     
 }
 .photo>img {
   height: 250px;
   border-style: solid;
-  border-color: #235734;
+  border-color: #132F1E;
   border-radius: 50%;
   border-width: 10px;
 }
 
-header>p{
+.head>p{
   color: white;
-  font-size: 16px;
+  font-size: 18px;
   text-align: center;
 
 }
@@ -68,6 +67,10 @@ header>p{
 
 }
 
+.link {
+  font-size: 34px;
+}
+
 .nav ul {
   padding-left: 0;
 }
@@ -84,13 +87,13 @@ header>p{
 
 #bio {
   background-color: white;
-  text-align: center;
+  text-align: left;
   border-style: solid;
   margin-top: 10px;
   margin-bottom: 10px;
   margin-left: auto;
   margin-right: auto;
-  border-color: #235734;
+  border-color: #132F1E;
   padding-left: 5px;
   padding-right: 5px;
 
@@ -102,10 +105,11 @@ header>p{
 }
 
 #bio>p {
-  font-size: 16px;
-  line-height: 21px;
+  font-size: 20px;
+  line-height: 24px;
   margin-left: 10px;
   margin-right: 10px;
+  text-align: left;
 }
 
 .separator2 {
@@ -125,7 +129,7 @@ header>p{
   margin-bottom: 10px;
   margin-left: auto;
   margin-right: auto;
-  border-color: #235734;
+  border-color: #132F1E;
 }
 
 #portfolio>h3 {
@@ -133,11 +137,16 @@ header>p{
   margin-left: 15px;
 }
 
+#portfolio>p {
+  text-align: left;
+}
+
 #portfolio .seinfeld_ss {
   border-width: 0px;
   border-radius: 0%;
   height: auto;
-  max-width: 80%;
+  max-width: 90%;
+  text-align: center;
 }
 
 #portfolio ul {
@@ -160,7 +169,7 @@ header>p{
 }
 
 #portfolio>p {
-  font-size: 16px;
+  font-size: 20px;
   line-height: 21px;
   margin-left: 10px;
   margin-right: 10px;
@@ -183,7 +192,7 @@ header>p{
   margin-bottom: 10px;
   margin-left: auto;
   margin-right: auto;
-  border-color: #235734;
+  border-color: #132F1E;
 }
 
 #contact>h3 {
@@ -221,17 +230,17 @@ footer>p {
   background-color: #a4893d;
 }
 
-header {
-  margin-top: 200px;
+.head {
+  margin-top: 0px;
   margin-bottom: 400px
 }
 
-header>p{
+.head>p{
   font-size: 20
 }
 
 a {
-  color: #235734;
+  color: #132F1E;
 }
 
 a:hover {
@@ -261,7 +270,7 @@ h1 {
 .photo>img {
   height: 350px;
   border-style: solid;
-  border-color: #235734;
+  border-color: #132F1E;
   border-radius: 50%;
   border-width: 10px;
 }
@@ -298,13 +307,13 @@ h1 {
 
 #bio {
   background-color: white;
-  text-align: center;
+  text-align: left;
   border-style: solid;
   margin-top: 10px;
   margin-bottom: 10px;
   margin-left: auto;
   margin-right: auto;
-  border-color: #235734;
+  border-color: #132F1E;
   padding-left: 5px;
   padding-right: 5px;
 
@@ -318,6 +327,7 @@ h1 {
 #bio>p {
   font-size: 20px;
   line-height: 28px;
+  text-align: left
 }
 
 .separator2 {
@@ -337,7 +347,7 @@ h1 {
   margin-bottom: 10px;
   margin-left: auto;
   margin-right: auto;
-  border-color: #235734;
+  border-color: #132F1E;
 }
 
 #portfolio>h3 {
@@ -345,11 +355,20 @@ h1 {
   margin-left: 15px;
 }
 
+#portfolio>p {
+  text-align: left
+}
+
+.portfiolio>.portLinks {
+  text-align: center;
+}
+
 #portfolio .seinfeld_ss {
   border-width: 0px;
   border-radius: 0%;
   height: auto;
   max-width: 80%;
+  text-align: center;
 }
 
 .portfolio ul {
@@ -393,7 +412,7 @@ h1 {
   margin-bottom: 10px;
   margin-left: auto;
   margin-right: auto;
-  border-color: #235734;
+  border-color: #132F1E;
 }
 
 #contact>h3 {
@@ -429,17 +448,17 @@ footer {
   background-color: #a4893d;
 }
 
-header {
+.head {
   margin-top: 200px;
   margin-bottom: 265px
 }
 
-header>p{
+.head>p{
   font-size: 20
 }
 
 a {
-  color: #235734;
+  color: #132F1E;
 }
 
 a:hover {
@@ -469,7 +488,7 @@ h1 {
 .photo>img {
   height: 350px;
   border-style: solid;
-  border-color: #235734;
+  border-color: #132F1E;
   border-radius: 50%;
   border-width: 10px;
 }
@@ -477,7 +496,6 @@ h1 {
 .nav {
   text-align: center;
   color: white;
-  
 }
 
 .nav a:hover {
@@ -487,7 +505,7 @@ h1 {
 .nav li {
   display: inline;
   list-style: none;
-
+  font-size: 54px;
 }
 
 .nav ul {
@@ -506,14 +524,14 @@ h1 {
 
 #bio {
   background-color: white;
-  text-align: center;
+  text-align: left;
   width: 75%;
   border-style: solid;
   margin-top: 10px;
   margin-bottom: 10px;
   margin-left: auto;
   margin-right: auto;
-  border-color: #235734;
+  border-color: #132F1E;
   padding-left: 5px;
   padding-right: 5px;
 
@@ -547,7 +565,7 @@ h1 {
   margin-bottom: 10px;
   margin-left: auto;
   margin-right: auto;
-  border-color: #235734;
+  border-color: #132F1E;
 }
 
 #portfolio>h3 {
@@ -560,6 +578,7 @@ h1 {
   border-radius: 0%;
   height: auto;
   max-width: 80%;
+  text-aign: center;
 }
 
 #portfolio ul {
@@ -604,7 +623,7 @@ h1 {
   margin-bottom: 10px;
   margin-left: auto;
   margin-right: auto;
-  border-color: #235734;
+  border-color: #132F1E;
 }
 
 #contact>h3 {

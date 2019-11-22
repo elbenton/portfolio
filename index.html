@@ -1,29 +1,25 @@
 <!DOCTYPE html>
-<html lang>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Eric Benton | Web Developer</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet"> 
+    <link rel="shortcut icon" type="image/jpg" href="favicon.ico"/>
   </head>
   <body>
-    <main role="main">
-        <header role="head">
-            <h1>Eric Benton</h1>
-            <div class="top photo">
-            <img src="images/headshot_lol.jpeg" alt="A photo of Eric Benton"></img>
-            </div>
-            <p>Web Developer/Web Designer/Perpetually Exhausted</p>
+    <main>
+      <div class="top photo">
+      <h1>Eric Benton</h1>
+        <img src="images/headshot_lol.jpeg" alt="A photo of Eric Benton">
+      </div>
+        <div class="head">
+          <p>Web Developer/Web Designer/Very Famous</p>
             <section class="nav">
-              <ul>
-               <li><a href="#bio"target="_blank">About</a></li>
-               |
-               <li><a href="#portfolio"target="_blank">Portfolio</a></li>
-               |
-               <li><a href="#contact" target="_blank">Contact</a> </li>
+              <p><a href="#bio" target="_blank" class="link">About</a> | <a href="#portfolio" target="_blank" class="link">Portfolio</a> | <a href="#contact" target="_blank" class="link">Contact</a>
             </section>
-        </header>
+          </div>
         <div class="separator1">
         </div>
         <div class="div-bio">
@@ -36,27 +32,25 @@
         <section id="portfolio">
           <h3>Portfolio</h3><img src="images/quizapp_screenshot.png" alt="A screenshot of a quiz app for the television show Seinfeld" class="seinfeld_ss">
           <ul>
-            <li><img src="images/HTML_logo.png" class"logos"></li>
-            <li><img src="images/CSS_logo.png" class"logos"></li>
-            <li><img src="images/JS_logo.png" class"logos"></li>
+            <li><img src="images/HTML_logo.png" class="logos" alt="HTML logo"></li>
+            <li><img src="images/CSS_logo.png" class="logos" alt="CSS logo"></li>
+            <li><img src="images/JS_logo.png" class="logos" alt="Javascript logo"></li>
           </ul>
-          <ul>
-            <a href="https://github.com/elbenton/quizapp">Code</a> | <a href="https://quizapp.ebenton.repl.co">Live</a>
-          </ul>
+          <div class="portLinks">
+          <p><a href="https://github.com/elbenton/quizapp" target="_blank" class="link">Code</a> | <a href="https://quizapp.ebenton.repl.co" target="_blank" class="link">Live</a></p>
+          </div>
           <p>The Quiz About Nothing!</p><p>The Quiz About Nothing app is a five question quiz that drills the user in trivia related to the 90’s television show “Seinfeld.”</p>
-        </div>
         </section>
         <div class="separator3">
         </div>
         <section id="contact">
           <h3>Contact</h3>
-          <p><a href="mailto:ebenton90@gmail.com">Email</a> | <a href="https://github.com/elbenton">Github</a> | <a href="https://www.linkedin.com/in/eric-benton-76b6b0192/">LinkedIn</a></p>
+          <p><a href="mailto:ebenton90@gmail.com" target="_blank" class="link">Email</a> | <a href="https://github.com/elbenton" target="_blank" class="link">Github</a> | <a href="https://www.linkedin.com/in/eric-benton-76b6b0192/" target="_blank" class="link">LinkedIn</a></p>
         </section>
-        </div>
         <div class="separator4">
         </div>
         </main>
-    <footer role="content-info"><p>None of this is under any &copy; but still. Please don't steal it...</p>
+    <footer><p>None of this is under any &copy; but still. Please don't steal it...</p>
     </footer>
   </body>
 </html>
