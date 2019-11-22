@@ -16,6 +16,10 @@ a:active {
   color:#628078;
 }
 
+.top {
+  padding-top: 100px;
+}
+
 .head {
   margin-bottom: 300px;
 }
@@ -32,7 +36,7 @@ h1 {
   margin-right: auto;
   text-align: center;
   color: white;
-  margin-top: 150px;
+  margin-top: -20px;
   margin-bottom: -10px;
     
 }
@@ -448,8 +452,11 @@ footer {
   background-color: #a4893d;
 }
 
+.top {
+  padding-top: 100px;
+}
+
 .head {
-  margin-top: 200px;
   margin-bottom: 265px
 }
 
